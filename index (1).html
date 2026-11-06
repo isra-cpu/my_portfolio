@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Werghemmi Issrae – Digital Marketer & Content Strategist</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Syne:wght@600;800&family=DM+Sans:wght@400;500&display=swap">
+<style>
+:root{--bg:#fbf4f4;--surface:#f3e3e5;--ink:#2b1d2f;--muted:#6d5a70;--accent:#a63d5f;--on-accent:#fff;--line:#e2c9ce;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1d1420;--surface:#2a1d2e;--ink:#f6e9ec;--muted:#c0aab8;--accent:#e58aa5;--on-accent:#1d1420;--line:#41304a}}
+:root[data-theme="dark"]{--bg:#1d1420;--surface:#2a1d2e;--ink:#f6e9ec;--muted:#c0aab8;--accent:#e58aa5;--on-accent:#1d1420;--line:#41304a}
+*{box-sizing:border-box}html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1.0625rem/1.65 "DM Sans",system-ui,sans-serif}
+a{color:inherit}a:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+h1,h2,h3{font-family:Syne,system-ui,sans-serif;line-height:1.1;margin:0}
+.wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+nav{display:flex;gap:20px;justify-content:flex-end;padding:20px 0;font-weight:500}
+nav a{text-decoration:none;color:var(--muted)}nav a:hover{color:var(--accent)}
+.hero{display:grid;grid-template-columns:1.2fr .8fr;gap:48px;align-items:center;padding:32px 0 88px}
+.hero h1{font-size:clamp(2.6rem,7vw,5rem);font-weight:800;letter-spacing:-.02em}
+.hero .role{font-size:1.25rem;color:var(--accent);font-weight:500;margin:20px 0 12px}
+.hero p{max-width:34em;color:var(--muted);margin:0 0 28px}
+.btns{display:flex;flex-wrap:wrap;gap:12px}
+.btn{display:inline-block;padding:12px 22px;border-radius:999px;text-decoration:none;font-weight:500;border:2px solid var(--accent)}
+.btn.main{background:var(--accent);color:var(--on-accent)}
+.photo{aspect-ratio:3/4;border-radius:999px 999px 24px 24px;overflow:hidden;background:var(--surface);border:2px solid var(--line)}
+.photo img{width:100%;height:100%;object-fit:cover;object-position:46% 30%;display:block}
+section{padding:72px 0;border-top:1px solid var(--line)}
+section>.wrap{display:grid;grid-template-columns:220px 1fr;gap:40px}
+h2{font-size:2rem;font-weight:800}
+.about p{margin:0 0 16px;max-width:38em}
+.about h3{font-size:1.2rem;color:var(--accent);margin:36px 0 10px}
+.about h3:first-child{margin-top:0}
+.about .note{margin-top:40px;padding:24px 28px;background:var(--surface);border-left:4px solid var(--accent);border-radius:4px 20px 20px 4px;max-width:40em}
+.about .note p:last-child{margin:0;font-weight:500}
+.job h3{font-size:1.5rem}
+.job .meta{color:var(--muted);margin:6px 0 20px}
+.job ul{margin:0;padding-left:20px;max-width:40em}.job li{margin-bottom:10px}.job li::marker{color:var(--accent)}
+.tags{display:flex;flex-wrap:wrap;gap:10px;list-style:none;margin:0;padding:0}
+.tags li{background:var(--surface);border:1px solid var(--line);padding:8px 16px;border-radius:999px}
+.contact dl{display:grid;grid-template-columns:120px 1fr;gap:14px 20px;margin:0}
+.contact dt{color:var(--muted)}.contact dd{margin:0;overflow-wrap:anywhere}
+.contact a{color:var(--accent);font-weight:500}
+footer{padding:32px 0 48px;color:var(--muted);border-top:1px solid var(--line);font-size:.95rem}
+@media(max-width:760px){.hero{grid-template-columns:1fr;padding-bottom:56px}.photo{order:-1;max-width:280px}
+section>.wrap{grid-template-columns:1fr;gap:20px}.contact dl{grid-template-columns:1fr;gap:2px}.contact dd{margin-bottom:12px}nav{justify-content:flex-start;flex-wrap:wrap}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header class="wrap">
+<nav aria-label="Main"><a href="#about">About</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#contact">Contact</a></nav>
+<div class="hero">
+<div>
+<h1>Werghemmi Issrae</h1>
+<div class="role">Digital marketer & content strategist</div>
+<p>Creative and curious, I help brands grow, connect with their target audience and strengthen their online presence.</p>
+<div class="btns"><a class="btn main" href="#contact">Get in touch</a><a class="btn" href="#experience">See my experience</a></div>
+</div>
+<div class="photo"><img alt="Portrait of Werghemmi Issrae" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAcFBQYFBAcGBgYIBwcICxILCwoKCxYPEA0SGhYbGhkWGRgcICgiHB4mHhgZIzAkJiorLS4tGyIyNTEsNSgsLSz/2wBDAQcICAsJCxULCxUsHRkdLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCz/wAARCADLAWgDASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDofboaTqPrzSg0HpUAIeeM0ADrz+dIRgYFKAM0DAZyKUn0FIAMepo6n6UAJ1pR0xQRzS0AGcDrgUde/wCVJgj0pO1AAR2I6HNOBz/KkxRjkUAKTgYPNKOOe9IcHFA6kmgQuT/k0ZOeSaTuemRSgDHtQAmST3/Ol+tIR9KPY0AHU9TSDnvSkDPSgcdc/hQMQ/U8UHk8HFH8ef1owO1AC5Hakz6c1GzqpyDn6UwzEfwj8TQBLkjrQTge9QG5weVH4GnJPHIeTt9jSAlHOSTmgseg7UHuaT+H0NMA/hzmkJyD2FGeRij60AHReKU/lmkxznNL0H6UADE4HJpAx65/Ck6mgH1FIBdxB70mSR3pD9KQHIoAduxk59qXPQU0Yo69ulMQpPrkU3JyaCOOnBpMEZoAXr1NBJ3cc0ntxS8YzQMAcnFGeAPSgDHQZzQc460CA0UhPbHUUUAWBgcClPWkxilz+fagBKOneij+VAAT6/yoH6CjqPalx+lAxMc0oHegHjGMUYx3oEB9e1J2pT70mMDigAyMkUBuOKXbikPFAxfxH40v9aMe9Gc8UCDpmjIB6dKMcg9KXqDx9KAG4JfPWjt6UtHUZoAT6Zo6+1Kfr1pjPt78ntQAm7GSeBnjFMJZuWPB7UMBjJqNn54PWpuWkBYdKiZyR1pC+enbvTC3PPWlcqwEk8CmNx26VKOEz0qNick0hCx3DxMB95fQ1dV1kUMp4/lWYTmnwzmGTI6HqPWqTJaNPtnsKQn2pA4ZQQeCKQDPf6VRIuB370p5HFNGcDA6Up44AyaBiZ9M0vFJkdBmj8KQARnPHFJgYobHAoJ4zQAuTRjnrSdB70btvrmmIXsTjFJnik+v5UAelAC5GeOTSA8c8GjBzSjgUAITgZNHUAkEe1HcZoPJ7UAJnIzngUUvQcmigC0AfypKMcetGM0wAkGg9euKP1pOcg5/CkAuaO1JjnPejFAC9xRngmjpjmg0AC/dyaWg4A6c0h4oAMHFGevOT60fofejGaAAY/WlPSj+H1oOT/ERjnFAAeoFHHfnFL2560dTntQAhAPf9KOgBo/WjHFACduelQBhJcscfcAGfepJXCRlicAVDEQsRb1+aobNIrQJWy+M8Dkmq7Nk56Z/lQ7gJyfvfM30qszE8seW7elSWkOeY9E4A71EzhEaWWQJGgyWJwAKZNNHbwmWVtqZxxyWPoB3NYV7NNfMDJlIlOUiB4HufU/yqZT5TSFNyDVfEF3dIYdOdraL/ntj9430z93+dZNtquu6fOrteNewg/NHPySP97qDV0wgDpUTxVz88tzq9nC1rHUwXUV1apcQtmNxxnqD3B96eSMdelc3pV39jujDIf3E/Bz/AAt2P9DW+GKNtbp0rphLmVzjqU+R2NLT5d0bL1weKt9R1rHsJTHeFc9Tg/jWuTzgVqjnkrDgfakPA9Kac+goJz1piEJweDn3NO6ik4x060ZPoaAADmjIz1ozzQfTPNACjkjijg9aaCaXOBQAHrx3o7UnQnigHPWgQEnPWg/Xk0EnoBSc55PP8qAFPAoPNB9KPegYHk0Uh6UUAWy2O3fFGODxSHJP0pTQAgz1o7f/AFqOO1GDnntQAA0v1pB9KTJJ6ZzQAufmwKcOmc0n5CjtwOlACfMCe/PApR744o57Uo4oAMUfSgYo/CgBDznuKU9aB7migAOPzo4OOKMZbPalPpxgUABx0wOKQ0hzu6/hRkAdOaGCKt1uckDjjC4/nTZSBCATwep9qjDNJeOxPC8D/P40TKJI0Q8AgFvp3rLc3asQZyN7Dg8/4VVurtLZA8g3O33EHVv8B70alqKWpCKBJM33I/6t6D+dZIV3dpZn8yV/vMf5D0FZznbRG1OnzasJGknm82Yhn7AdFHoBTG5qbGD60w81idRAVBFRsvtU7fpUe0EZzQIqyxqykEZ4rT028NxamOQkzQYVv9pezf0/CqD4/GoBO1pcpcjJVeHUd0PX/H8KqErMipHmR0kLYvIm9f6Gt/v6VzaHc0TI25Qcg+oI4roc9+tdcTz5j8+n40nGD7U3JJz0o9M1ZmOJO3FIOvHX3oz+lJnrx1pAOye1GDnmkzR2oGHU0vfr0pDwOtAPGaBByKBSfjQcHrQAuewNH+c0g689aOvagBR3oJ4pPwoyAeaAFJ4ooJ60UDLYxjIFIeaAOODS9PegBOcHHXtR+VHSjPoaAFPX2oHA9KT3Jo/nQMPzpc5AxRkZpOhoAOc8+tKc4FICB3pe3WgAHIGaX054phGTRgCgB46dBR9aTgcDjFFAhfTFAx74pPfFLnj3oAQ8YA60jfd/DrRz34pH4Qmk9hrcoJlZmHqpNY3iLX20ox2ltHvu5l4Yj5Y1Hf3PtW5GMyStnnGz/P51zHiAI2vmN7fzcwBoyGClWDEdcHgg1zydonVBXlqZifaGVmVyJG5eVuSfzqnPb3THdHeLv7eZKRVpvtE1mCihGOTt3ZA/HHNc/qFhfgysxyNpKsnztnt14A+grOnFN2bOibaV0W2u9ds2y7JNEO6EOP55q/Za2JxiVdj9wOlcTHDPLfbGklVFUktKuzkVpafdySSiKU7gD94nNXUhy7E0p33OzMwIyDxUD3IHGahVdsGScr61ganqbG5FvCC8jdl/nWCTZu3Fam3JexJkvKq/U1CL62lyFnQ/8CrlZXsd4867Mjd/LGQPxJ5qaC1sZmxBPIhx0Zc/1rX2dtzB1b7Hd+H7tXzYs37yEbl90zj9D/MV2n8Wa8k0m5k0/W7e4eUPFGhilPIIBJwSD2//AF16wjiSNWzkMARXTDY46u9x/Pal4FN6DGKAe9aGI8HINJnim57ZpT60gFycUDnntSdfT86B6HmgAJ4xjij9BRnHbNJ360AO49MUZyc80hooAM+3NHTGRR3ByaD0IoAXnNJnt3o/H8KMc9aAA9MdRRQeOlFAFvOaX6dKMAH3ozz1+lAw7Yo/Wg/oKDQMAaDwcf1o6ijqSaAAHrR3FH0xQBgUABAPH60nPelHPel9O+aAG4565+tL/Fg9aSlzQAvOaAcnNJ2pe1AgoJ70euBSZPrxQAvemt90j1paQgHihjRThQoz/wC05NYWrhW1oueqxAfmT/hW8zeWQT0ziuf1LJ1GU9OAP51zVNjro/FczLcA2kfHKrtP1HB/Wqt5G/VTx6ValzbyM+CY35OBna3r9DUTyI65DAisTrRjyWTz/ek/TmoXsVtpMqnOOSBWyHRfmYhR7mkji+0ybypWMevVv/rU7iaGxQN/Znz54HAzXL7HfLBj5jk7mA5IB4U/z/8A1V3Dqv2VxiubjgSG7mjP8R3j6H/9VVF21M5xT0MNNLtfMRi8gKHIRuRVmDRo1bzYZWDZzt7fh6VvLDGTnaD9aeUXoBih1GxeyS2LGh6as0MgkUEz/u8nsMcn+v4V0fhy8M9gLbyZ41t1AVpI2UMO2CRz/hVOwgMdikaczXY2rj/lnH/E35fqRXRg4UKBgAYA9BXRTVlc4qsrysOzxRxSZycUA8+ma1Mhcgn0pc80np6UZ44pAL/FS+lIRgijgnnmgAJzQM49zQeuaTHvQAo4GRQSD7Ude1FAC+2aQng56UZyfagn6UALnikzketGcZzig+vWgAz2ziik/OigC6ev0ozj6UYGTml70FCD1P4UAnFGSfrSjp1oEIM9aUUck57ij/PFAAe2OOaOho6/WjjOKBgeCfajsOaMe/WjnrigA/pSZyc0gOPalz2/GgBcjnjrR9abnA9aXAHrQIX60Z703PNKTxQAGkz1oP5UmRQBDcruhPua56/H+myPj74U/pXSnkEGsPV4jGVcDgjBrnqrQ6qD1sZEjAHrWbc+VkllH1qW5kIJrK+2Qi8CTyhOeN3TNclz0CzFEGUyLH05Ga0ooXUqC3BFKka+WNvIqBw8ZyrsB6E8f/Wqr2FuXJoHEfTiua1VJUvIJo8ALlT+P/6q1ZdRKwEGX8O9ZksjzKd4+XOapMloWOdiozG34HNTRO8rACJsk96qwyALt9K19Fi+0X6nHyx/Mf6UR1dhTdonW2FqttbqD87lQGc98dvYD0q135qJM7BzTw3TjpXejyHuP6H1pc8UwHA7+lOzzTAdknpRmmk96XOMUgF69/xo4zmkB6g0buM0AO684pOgzRnrSZxQAuecnml6U3OOSccUZPtQAvX6daXFJ+dHWgAPFJQecelLnpjmgAJz0opORntRQBe/Kl6dOKafalzxQUL0NJnH1o5BxSfxY5+lAhR0pe3sKQHFGc5NABml5xkim5w3FLnsaBi559qQ9OmaBnNGcnGKADtzR/SkBB6Uo6k0gD3pM4NHbNGeMUwEye4pTSZPpQxNACHFIfXNLkAAc02gBT6c1Sv4Bc2rx/xjlfrVvJJJPpVUOZ0YZHmISPr6VnPXQ0p6anF3KnJBHIOKqGxiuIZEkQFX4Nb+r2wdmuETaw/1qen+19KzlG0ZxXA04s9SMuZXOdeK7sCYoZZFK9AGxkeoqL+27yLKzMGHcSLjP4it68iWdMEHI6EdRWDdLcJlWCyj1IwaaZ0x5ZLUhk10HAFuh/4HSjU57lfLigCE8licgCoxDNM+FhWMf3jir0Nt5ahVG4+p6mrRhUUVsOt4mVFB+Zz6V2OiWfkW/I+Zjlj/AErO0jSTuEswI9BjmuhjKxjjAUccetbU49WcNWd9EWl4PFO3Y561CJQSMdKeH4OP5103RxOLJN314pc9s4qPeAyr3IzTiep6UxD89P50vcEUwGlz+NIB2c/X2oxn04puQDzSg8+tAC4A6nA9aXIA4IxTQenTikoAcvByevUU7JznimZ44FHUetADwcZOKB6nt2pAeSTxQOR1oAXPrxSZ3d6Xg8UnAFAxTz3opp60UAX84znpR+OKQelKM9TQMX3ppNLkAelNOR9aAH96QH8KQ0An1oAXPPINHVuB1oznJoH5dqAFz0xRzk470nfrR+IoAO3TpQOlLnmkHHNIAJ/WkPWgZIpN3PGaYCn05pD3oyMjmmuyIMkgDtSATP4VDNcCFSx5AP4UqymTJXhF/U1VuSDbqG4BOcn3NJspRLkDl7UyMMbqzmZo7qXa2GyGH5VpNxGoXoOKybw7LtG6ZBU1MjSA6XbdIJNpDDhgOqH29jWHdWptgWU7o/1WtC6uTp7i65MI+WYAZwvZvw/lVh2imTeuGVhkEdCKylBSNoTcWc0zLg5qpKEbNbdxplu5yAyf7pqodHi/56Sc/T/CsPZs6fbRMbaM7VGT0GK3NN05IkEkigv1yei05bW00+MyuNoHGTyT7CrNkJrpmubmM29un+rjbgn/AGjW0Y23MZz5ti+i5GBwPX1p0oOFA4HamITLdLkYVQSAfX1qzIoYfStlqcz0IAdq8Gnkn1pjjCZPapFHGcdKZLZzXjHUbyzNklo2PMDlsAZGMYOew55rFsPFMz6lIy3DzwRMAZWyka5YAcZPGc+5H0qPxjPcahrNzFEQsNtB5CnzNpZz8zYHccDI9sjpVKG0gu9OstOs/tCXRYnPmoEk+Uhth6Fue/PX0raOxkdTpHjpL64Nq0DSy/wsi/e69vpXRQa1ZTsVEuxucK4wTjrgV5XOx0Sb7HabRdCVkX5+ExwWY8ZP3gOwAPHNTafdXUwe5tJZS8Z2m9kmKlm9FXIAX65P8qrlTEesxXME5PlTRybeoVgSKfv5zXGWF9b2jtG80N2ZsP5iARukgBJz3wT+HU+tdLp121xE3mKY3BPyuMNj1Ix+PHHNS42Fc0M9fpSgjHvTPYUoIzUDHEc0ue386QdOaU4IHH0oAXsPWgj06UgJHU0mfc0AO4zS9ulIOnT60DrQApJIz2opM+lFAy76dxS9Oev0pAehHHFLkdf1oGLkY680h5xQT6c0bR+VACY+tLj86OgHNHfFIAGN3v60vT057Ug4FLxgZoAM49zS5xSdaQE88DmgA6mlGcY7ZpCAR7UnakAufwxSE54pcjv/ADrNuL8GRoUjkYLjLgfKT/dz3Jp7gZ2q+K7a2uJbO1lia6jBDebnAOOAFHLk+1ULDVb+/ile6lYiTBhUwmEjaMOMHnIPuaNS05tTS2tXs1aDc8kzy/eVewDA9T7cflXF6je6jY3VnHbSkI0m2GduckHpyABjPNa8qaJTdz1GwnBs9oPK8VFrcMt1o0pibEqjcPcrzj8aydPvHHlTFdgmHK54DA4YfmDW/DIJIpF6g81g0ap21Kug3Ulzpx837ykAZ64pNRX5UJ7NVq2gS2RtgADkCorxN0B9uadtB31uZsVwklxJYy/fVQyg/wAaHj+YIrJill0W4a1fLW2cx57Co/E6TW81jf2xKyoWTI798fzrU0vVINVt1Lxp50XLIwBKn1HtWbXQ1T0uTxB7qMOiFQe7cCpVsyfvyD8BUonBPOR9aUyL61ViLsasUMX7zaoKD77dh3qpHM1/dF+Rbxn5Qf4j6mob6driRYVJ8sHJ9zV+3iEUCoPxxU7svZaj7df37n0GKmIpkXBkPc4FPP8A+qqWhnLchkHyfWori6Wy06S5kBIjXO0DJY9gB3JNSv8AM20dTUGoWy3NsLdslDkNg47etUhPY8e1ySQXYneKWGWZzPG5kLFhkjr2II7cVLp+qxzQtHdzIkrHLGUHZLjoSyDcrg9H564NbPiTQWtNHMSqJRbyvIrs2CkbAcD15FcQp4H5mrTIN/U7RJ0eaAytcSZkDC489ZV6Pg4ByOpB7VnSLLcCKG3hmeJBhAFLZPduO5NW9FYoJzOqyQ2+2V4HB3bT8rsvoQpz/wDqra/0Ow0N08+a31CF1gbyJmQOp5WUKDhsr39etaIT0MzTNHu4NRtzcyLZlWDMsnJRO5ZewPTBwT+tdZF4qtNMlkQXP244VVIkbgD0DDt6d/U1yiWVzqMAmmDW9mrYVOwPqScDPck5PtirVtPo1pMIzcxzW2fniRHQv9ZNuSPbCiqRDVzr9F16a7tSIS5YESISuVdeSVY9Q3XnvxXYKcqG9fevNLHXtLstZke3/e2s4IEJ+XYck49OMtg+hwcYroz4utbORTOzwxPxEsi43Y7ZGQOvWplG+wJnVgggjvTuo96wYPEaXVzGkTxxkrv8mRTvdfVGBKsPpWhpmom+t1Z0COV3fKcgjOMg+/Ws3Fody+B1pO+B2oAyOTR+tIA46c8UUpAOKQDHU0ALwKKPaigC96e1KPxoPApPWkUGCKM9qAc0vHsKAE5IpcHoaOaB1oADwMUY59aTuKdjvmgBMDjig9eCR7UHgUY460gEHXrxWHeXGqieaKNXCunyTRgYjJBwSCcnBH61rGfM5jRDhfvP2B9PrWdqVrHeW88MmSs6NGwB6gjFUtAMifxELSZbW8uppmJTf+5C7VYEZbHYbc/jWde3lvDeXsrx3Vt5aqsUmQqygk52jHsctzxk1H4uaxthhLmeS/u4xbW0BX5B8wXsOOp7+tcVdX11G6w37y3WnB5I4nX92pwcNsA4H+BrVJEmpceKJprp2tZHEkh2hI3aNQD1JA6D3znjtnipbzxR3DRavaxujgvEyKD8w5xnuCD3zyB61muktvaJcwXcdzbyM0ZUgko5XgMCOuOQfam3DfadLWVJYSVC4WMFQjDgA56kjknvxTGeg6FNayWk2nQRvEIXMiA52gMT93P05HYk1v6feGNtkg5HBrgdMePT9eglMn728iV8AbVCfd+7nqW59MV3CzKOQMv61lJajubhfeMrjHamOu6M+4rMsLwo5hkPDHKn0PpWoDn2qSjntftzLoUpAy8JDj8Dg/oTXPWqtIVlhk8q4T7rDv7H2rtpYlkaWFxlJBz9DxXHWsD2eoPA4+aNitK1x3a2Niz1MXDeRMvkXa/eQnhvdfUVZeXjAOKpz2Md7AFl+VxyjjqpqmZ7uybyrwb1PCyjo1JqxSaZo2oEl2PzrYPA5PFZGkK0jvKRjdwAfStVpF3bM5I5NNIbeo6IYBLcFjnHpQ74FMD8ZqWKPOZJBwOQD3osSJFGUXzG+8eg9Kr3E2z3NTXE/J9fSqewudzdKlvsUlfc53xLZf2nbpbtdPbuScFTjcMYwR3HIriIb37J9isYwIiEzLJgE7znjngciuv13zW1a3kaPzIAweILgEsucjJ9Qc/8BrlNVsWstSvMDzI7iNmGR/Fnd/ifwq4mcjJS8ltNR+0xS+ZIrE72GfMz1yO4I6/Wtq1ntb9UhhjSYqMLZ3PDKM52xTDn6A/rXN9amgjjknRJWKRDl2AyQO+PetUSa+raheXzxacs9zPHACESdQsi56o3qRjrVFNPMTr9rkEOT9xSHkP0UHj8cVvN9qiexYxQSau8REsEqqUMIHyNLu4D9P0zWTa3aQXMpvI3V51Ks/ljC+4A4x9PSqEWVmjtXeO18kMmCJYpNzLwSQTjlsZGRwO3XNXFnuLyzMlxaySRzy/6/cph4z8qqOmPXOaJHt/tcN232UCFw+EGyNlA4GAO5yTz3qbSLQalqgs7KAJbmcvPImfLj46ICeuB1+lO9iRNE029naS1t7Zrq1WXciS/dib+9v42nsQMk+ldTpE+oadq08MrtcRg7QiLIyDuwVmz0/z7SQ2niJL3ZHeWlpZR5SJfLBLjru2jv+P1qzY3epWs/wBjuxJcgAsbpiqr1OAAOvv6UnqIuXviiwso5UkYrcooYQupBOeh4BOPwrnp9Y1rUr9IzaTWbFCUifJgfjOd64ZD7k9+lPvfDFhrlxHcxyNDFl2Zojy7kj5snrjBFaFvq0dtFNa3sflz221doPmecp+6yjHJOOmOCKmyWwxbvU9T09ImkQwW0afvpnPmLnHYn5iB+FXNI8SQakfKLqZwMkL6euOcD681kvotzqhMkhfTEfPyxSMZWB67udoz6YNGiaRd6VNPYGeeW1h2mAh9gwcnawA6j+tDtYLWOjm1Py7gQrbysTzuK4Qcf3ulFYlzvg1WJr1j5LHKylAY0Pp6g+5OKKLIWp3B/LNHI6UZHbOKQEE8cisTQUEng4oI5pe/p+FITgfWmADvxzS54FNzxk59aUsD3pAKeemKM+vOKTjuaO/WgAOQelNk3eWwU7WI4OM496UEDp941i3mqzrdmOziaWYggRuwUcZPGerHHftVJXEzRQLEvlIc7OpPUn/HvUcu1u2M96gsIrmGxQXU7XE5yzuyhfmJzjA4AHT8KLu5S1tnmk+7GMnHU+34mqSA43XILnybjUREsy2U800bbssGClRx2AKqePSuBGrmbSYtNvJZlt4RmNY41IDcncc8knJ6EV6pFcTWemCK6sZDIWKth0KuzHOck4GSehrzPxBpzQTyJJAsMolZUCNkEddme+M8H6j0rRgjNspY2E1vNIFikUtuJwAyhip/M4/Gpp7sX0qID5Sbt0kjptUN6naO3pVXTJRDeHK2+WUgPOCVj/2sdz6Ut3PdTzvEbiSVFyQQSFYHvj3zU3KtqbcfnRmzuLnVInjTPkwsDl1GQGUAHAz0z1rutJ1CLUbJZosuy/K6nhkb0I9a4PSr9obC6lgYC4NmIkYrnaEb58Z/2Tn8K27YLpGot9j1JrqXyQUtnfiTIznd3yMY54+lKQjsD0LAYFaNpcGSPk/MvUnvWVa30N3GxRlJQ7XXOSh9DVmNvKYMn4isxovXbiJ4pTwCdpP1rP1ewy4v4Vy6LiQDuOx/Cr8qLd2bx9Q44PoapaXqYeY2c5xOi7lz/Gv+I7/hSvZl2ujL+2qigkF2btU8WoQONjHHqrjip9Q0Pe/n2WAepiP9P8Ky5LbewSeJ45BxyMGrtfYhOz1L0mrxQOtvAFMr+g4Uep/wq7ECo6lieTnvVCy8O7nErboh1y/U/hW+qwWyZGCR/E1TtuXe+w23gKjfL+C/40y5uxkqvX+VV7i/MrbIs4Pf1pYbY4DScdwKhu+iKStqwjRpDnqP50y5cZEKnlh+lWZWEcZA/KqrRHb5h++OTSSG31Kl9YpdWhibg8MrDqpHQ15zdRTQ63NCY5ERMq6+aGVlx2B5Ar1NxuTI9K4bxhpEUs8V/sywxG7A4x6H6dvxrVGTOQv7B4V86O2ljgzjc7hhnJHGMcZBqfRVigkn1KdBJHZgFIyM+ZKfuL+YyfpWtPpd48HlXMUU6cgOWLSKAuFVcgcD2656Gsezvxpz2hkg80RTGdomO0FgNq5+mCaskXVbDUba/nlvSXuAVklbqQXGQfzyPqKfZahNcI9jeTtNBMjKnmnd5cmPlIJ6c4H41sza3JrtzFII9OkuFUoYd7q0qHrHkgA+o756Vm6loE8dt9rt7G7gtzgr57p/F0AxyTzimmAyHSVluIne4jMHkrPLMB80QPAUju+eBXeeHY4rrw69pbLcWBlVlVxHkBc44box9TwSc+lYnh22S01S0tmtZZ4onGWRfkaY5BkY9wuCq/QmtTxL4kv7HUU0/TFgZpD5ZYqxZWxnPTbwPrQIjSy1DT9fgvLu+FxbxRmN2kONhxgBc5yxABOOuTW9I19v8yOwWYEcebME/TBNVND0e7tybnVJxczEh40+8sZxjeM9CfatvPNJyCxmm41bp/ZkOP8AZuh/8TVSG31l9ca+kgt1iWLZHC0gyp7ncATW63FMzmpuFiuzag+AJreAHqFQyH8yR/KpNPsmsYmR53mBO4bgBj16dfxqxHHg5NSHmk2FhksKzwPFIoKONpB70U7PFFFwsb3PrzRg4HQ5pxUbM0xOTk81IxcsMdKOecCg9fwppY460AKCee9LgkAelIOv0pNoP4GgBSaD9fxpB3PekbvQBDds7QGKJ2R5PlEigZT354piWsNtvMaKGc5J75NMaVzq/kk/uxCHAx33YzUz9M+1UhEbgDOT+VZF6z387W0AXbbOjSM/RmHzBOPwJP4Va1ieS20a7nibbJHCzK3XBxXOadqN1/whtrc+b++cMWbaOTuPPStIrqJk+rvcahpl9bxQxRNFlSzuSVYYYYUDnPBHNcvql/d2OmyRz201tdW2WS5K+YJCwH3iQQdxLcduK0PDdxLqHibUpbpzI0QQr2AOCM4HGccZrPv7mafRljlkLousCIA8/KGJx+dWBxV7N9vLXP2eKKVceb5Z2hu2dv8AhVrTrqC2tBcNiW4ik+WKRjt24+9x0x0/KsmV2aSRicksSfzpqyOEKhiA3UetZX1NLdDprCNJrCaFfL8/MLLAWCmaIfMyDPqSeK3zvvTFdQWywafI8dx5rkKYAgwRt9wB07E1yWkubiSJJQriGWPYSoyuZF79ccmtDRr65bVtRs2mY28VvOiRnooBJFUQaVgVh1y3bS5WlEjzFyxz5kQAO5vbfnBrp9K1i31W28yJtrqBviJ+ZD/h71xNvcy2FzFDasIUuViEpUDcwKLxu6jr2NVbSeS28XL5LmPBQcehCgj9aiSKR6taXPly7GPyt09jWfr9hK8i3Nq/l3EZ8yJh69x+NOJODWr/AKy0jL8kgGsy9iloevR6tbAsdlygxInv6j2rWMj9N+K81Z2s9dY258shzjFdvJNILTcGIO3rSHYNS1iGxyGJnl/u54H1NUrW9udVQH7zZ+6vAFcpdTSSaiwdyQWxXotlbQ2tnHHDGEUqCcdzRa4XsJa2i26Zb5n9anLc0mc9aglJCdaHoNasYsoku9hHAGV9/WrDr8uKzbwlLizdeGEuM+xBBrVcdvalEc+hSHAKelZep26zwSRSAFXBBFaTk/aPqKrXv3DVpmZ50bL7FOVspbiF4wRI3JjZsAgMvfPPQY5FWpPDralpU+pm3dZxKd8StuO0LhtvqQ2SPXGKsazEhhupto8yAb427qcGsqwuLia9kt2uZ1hjAKokrIBkAnoR3NaIgx5rKaxmjaQbomw8cqfdkHXIP9Oors9LvH122tmuJhbafpalpJpDjdJkhPyHP1rkZZ5U+32wkYwlg+1ju+bPXnv7123gZVbRpUZEZTIuQVBzwDz6803oI6OymgvNJJtz5VswMcTxthsDjPscjpVDRludWvJrjU4gy2p8uL5fkf1cHvnHTtVTWCbPwSr2/wC6ZSjgr2Yvyf1rqLWNY7KFUG1Qg4H0pN2ESE803nj3rM8Q3M1poN7cQSGOWOIsrDqDWc11OPHNhGJX2TWBZ1zwSOQcVKVxm3b6jbXMM8iSjZbu0chbjaV60qXsUs8McXzmZPN6Y2p2J+prldFYy6XpEb/Ml5ezNOP+ehBJGfyFXfCsr3Gs6/NKxeQXAjDHsozgfSm1YDqFfnbTxzVbcfMHNWEORUFDXyAecUUj8GigEf/Z"></div>
+</div>
+</header>
+<main>
+<section id="about" class="about"><div class="wrap"><h2>About me</h2><div>
+<h3>Who I am</h3>
+<p>My name is Issrae, I am 21 years old, and I am currently a university student with a strong interest in digital marketing, social media strategy and business growth.</p>
+<p>I’m creative and passionate, a dreamer who believes in continuous growth, learning and self-improvement.</p>
+
+<h3>Experience so far</h3>
+<p>I have some initial freelance experience working with two clients, which allowed me to gain practical exposure to social media and understand some of the fundamental principles of marketing.</p>
+
+<h3>What interests me</h3>
+<p>I am particularly interested in understanding how businesses can use social media not only to build their online presence but also to attract potential customers, increase engagement and support business growth.</p>
+<p>I bring curiosity, love, energy and hope to everything I do, especially in digital marketing. I’m interested in Meta ads and in driving more sales through social media. I use creative strategy and concepts to help brands grow, connect with their target audience and strengthen their online presence.</p>
+
+<h3>Where I’m heading</h3>
+<p>Although I am still at the beginning of my professional journey, I am highly motivated to develop my skills, gain hands-on experience and learn from an experienced team.</p>
+
+<h3>How I work</h3>
+<p>I consider myself a fast learner, proactive, adaptable and committed to continuous improvement. I am comfortable taking on new challenges, learning from feedback and putting in the effort needed to deliver quality work.</p>
+</div></div></section>
+
+<section id="experience" class="job"><div class="wrap"><h2>Work experience</h2><div>
+<h3>Marketing Content Manager</h3>
+<div class="meta">trend_mall · 11 June 2026 – 11 September 2026 · Nabeul, Tunisia</div>
+<ul>
+<li>Created engaging content to connect the brand with its target audience and strengthen its online presence.</li>
+<li>Developed social media strategies, content strategy and creative concepts, including copywriting, voice-over scripts, video hooks, short-form video scripts and Canva designs.</li>
+<li>Reviewed content performance metrics, including views, audience retention and engagement, to identify opportunities for improvement.</li>
+<li>Used performance insights to refine content ideas, experiment with creative approaches and improve content effectiveness.</li>
+<li>Contributed to promotional content and marketing initiatives to support brand visibility and audience engagement.</li>
+<li>Showed excellent time management, creativity and adaptability in a fast-paced environment.</li>
+</ul></div></div></section>
+
+<section id="skills"><div class="wrap"><h2>Skills</h2>
+<ul class="tags"><li>Content strategy</li><li>Social media strategy</li><li>Copywriting</li><li>Voice-over scripts</li><li>Video hooks</li><li>Short-form video scripts</li><li>Canva</li><li>Performance analysis</li><li>Time management</li><li>Creativity</li><li>Adaptability</li></ul>
+</div></section>
+
+<section id="contact" class="contact"><div class="wrap"><h2>Contact</h2>
+<dl>
+<dt>Phone</dt><dd><a href="tel:+21620618403">20 618 403</a></dd>
+<dt>Email</dt><dd><a href="mailto:werghemmiissrae58@gmail.com">werghemmiissrae58@gmail.com</a></dd>
+<dt>LinkedIn</dt><dd><a href="https://www.linkedin.com/in/werghemmiissrae/" target="_blank" rel="noopener">linkedin.com/in/werghemmiissrae</a></dd>
+<dt>Instagram</dt><dd><a href="https://www.instagram.com/issraewerghemmi/" target="_blank" rel="noopener">@issraewerghemmi</a></dd>
+<dt>Home</dt><dd>Nabeul, Tunisia</dd>
+</dl></div></section>
+</main>
+<footer><div class="wrap">© 2026 Werghemmi Issrae</div></footer>
+</body>
+</html>
